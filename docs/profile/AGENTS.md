@@ -4,5 +4,6 @@ Contains a free-form knowledge base about me and my preferences for job search p
 
 ## Structure
 
-- `000-basic-information.md` contains my basic personal and contact information.
-- `001-preferences.md` contains my job search preferences.
+- `000-basic-information.md` contains my free-form basic personal and contact information. Do not treat this file as a resume headline.
+- `001-preferences.md` contains my free-form job search preferences. Do not treat this file as a final job search query or screening checklist.
+- `002-education.md` contains information about my education in the form of an autobiographical narrative. Do not treat this file as a final part of resume.
