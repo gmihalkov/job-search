@@ -8,3 +8,8 @@ Contains a free-form knowledge base about me and my preferences for job search p
 - `001-preferences.md` contains my free-form job search preferences. Do not treat this file as a final job search query or screening checklist.
 - `002-education.md` contains information about my education in the form of an autobiographical narrative. Do not treat this file as a final part of resume.
 - `003-experience.md` contain information about my work experience in the form of an autobiographical narrative. Do not treat this file as a final part of resume.
+- `004-skills.md` contains an automatically generated list of technical skills and soft skills derived from `002-education.md` and `003-experience.md`.
+
+## Maintenance rules
+
+- If `002-education.md` or `003-experience.md` changes, regenerate `004-skills.md`.
