@@ -16,8 +16,7 @@ Contains my free-form job search preferences. Do not treat this file as a final 
 - Node.js or Bun is required if we are talking about a role that includes backend work.
 - React, Angular or Vue are required if we are talking about a role that includes frontend work.
 - A role is not suitable if:
-  - It requires mandatory production-level knowledge of other programming languages from the start. Basic Python knowledge is acceptable.
-  - It requires mandatory production experience with Azure or Google Cloud from the start.
+  - It requires mandatory technical skills that are not listed in `004-skills.md`.
 
 ## Company preferences
 
