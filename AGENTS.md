@@ -1,14 +1,22 @@
 # AGENTS.md
 
-Helps me to find a job.
+Helps me to find job.
 
 ## Structure
 
-- `docs/` contains a document base about me and my job search process.
+- `docs/` - doc base about me and job search.
 
 ## General rules
 
-- Talk with me in Russian.
-- Write documents in English.
-- Do not add any facts of your own when translating.
-- Ask me if you are unsure about a Russian-to-English translation.
+- Talk in Russian.
+- Write in English.
+- Don't invent facts when translating.
+- Ask if you are unsure about translation.
+- Use `/caveman` skill when talking.
+- Use `/caveman` skill when writing AI instructions.
+
+## Commands
+
+- `pnpm markdown-to-docx <input.md> -o <output.docx>`.
+- `pnpm markdown-to-pdf <input.md>`.
+- `pnpm markdown-format <path> [...]`.

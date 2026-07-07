@@ -2,12 +2,22 @@
 
 Contains my free-form job search preferences. Do not treat this file as a final job search query or screening checklist.
 
+## Current search mode
+
+- I am actively looking for work and currently prioritize finding a suitable role over matching an ideal specialization.
+- Preferences in this document should be treated as guidance for ranking opportunities, not as strict rejection criteria, unless explicitly marked as unsuitable or legally constrained.
+
+## General preferences
+
+- Ignore vacancies that are recruiter spam, generic talent-pool ads, or low-information listings.
+
 ## Position preferences
 
-- Backend is the primary target.
-- Full-stack is acceptable if backend work is substantial.
-- Frontend is acceptable but lower priority.
-- Team or tech leadership is acceptable.
+- I am currently open to backend, full-stack, and frontend roles.
+- Backend or backend-heavy full-stack roles are preferred, but this is not a hard requirement.
+- Full-stack roles are acceptable.
+- Frontend roles are acceptable.
+- Team or tech leadership is acceptable, but individual contributor roles are also acceptable.
 
 ## Stack preferences
 
@@ -15,7 +25,7 @@ Contains my free-form job search preferences. Do not treat this file as a final 
 - Other programming languages are acceptable if they are secondary, not core to the role, and the company is willing to give me time to learn them.
 - Node.js or Bun is required if we are talking about a role that includes backend work.
 - React, Angular or Vue are required if we are talking about a role that includes frontend work.
-- A role is not suitable if:
+- Reject vacancy if:
   - It requires mandatory technical skills that are not listed in `004-skills.md`.
 
 ## Company preferences

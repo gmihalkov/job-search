@@ -1,0 +1,3 @@
+allowBuilds:
+  pandoc-bin: true
+  puppeteer: true

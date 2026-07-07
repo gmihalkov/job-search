@@ -1,15 +1,10 @@
 # AGENTS.md
 
-Contains a free-form knowledge base about me and my preferences for job search purposes. Files in this directory are not resumes and should not be treated as final application documents.
+Free-form knowledge base about me and job search preferences. Files here not resumes. Do not treat as final application docs.
 
 ## Structure
 
-- `000-basic-information.md` contains my free-form basic personal and contact information. Do not treat this file as a resume headline.
-- `001-preferences.md` contains my free-form job search preferences. Do not treat this file as a final job search query or screening checklist.
-- `002-education.md` contains information about my education in the form of an autobiographical narrative. Do not treat this file as a final part of resume.
-- `003-experience.md` contain information about my work experience in the form of an autobiographical narrative. Do not treat this file as a final part of resume.
-- `004-skills.md` contains an automatically generated list of technical skills and soft skills derived from `002-education.md` and `003-experience.md`.
-
-## Maintenance rules
-
-- If `002-education.md` or `003-experience.md` changes, regenerate `004-skills.md`.
+- `000-basic-information.md` hold free-form basic personal and contact info. Not resume headline.
+- `001-preferences.md` hold free-form job search preferences. Not final job search query. Not screening checklist.
+- `002-education.md` hold education info as autobiographical narrative. Not final resume part.
+- `003-experience.md` hold work experience info as autobiographical narrative. Not final resume part.

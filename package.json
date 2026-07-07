@@ -4,6 +4,8 @@
   "description": "Helps me to find a job.",
   "main": "index.js",
   "scripts": {
+    "markdown-to-docx": "pandoc",
+    "markdown-to-pdf": "md-to-pdf",
     "markdown-format": "prettier --write"
   },
   "keywords": [],
@@ -17,6 +19,8 @@
     }
   },
   "devDependencies": {
+    "md-to-pdf": "^5.2.5",
+    "pandoc-bin": "^0.2.0",
     "prettier": "^3.9.4",
     "skills": "^1.5.14"
   }

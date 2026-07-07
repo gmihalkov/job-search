@@ -1,7 +1,7 @@
 # AGENTS.md
 
-Contains a document base about me and my job search process.
+Doc base about me and job search.
 
 ## Structure
 
-- `profile/` contains a free-form knowledge base about me for job search purposes. Files in this directory are not resumes and should not be treated as final application documents.
+- `profile/` - free-form knowledge base about me and job search preferences. Files here not resumes. Do not treat as final application docs.
