@@ -207,6 +207,9 @@ importers:
 
   .:
     devDependencies:
+      '@playwright/cli':
+        specifier: ^0.1.15
+        version: 0.1.15
       md-to-pdf:
         specifier: ^5.2.5
         version: 5.2.5(yauzl@2.10.0)
@@ -221,6 +224,11 @@ importers:
         version: 1.5.14
 
 packages:
+
+  '@playwright/cli@0.1.15':
+    resolution: {integrity: sha512-2eLqaKBoNCR0TWv3+XhGjdf5+gZGNrsJ5u/EdxCOyFHOuU+yVxq1NJ6iRBvAvGqlOsyU9CwGKHdUs2XWriTLwA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   '@puppeteer/browsers@3.0.6':
     resolution: {integrity: sha512-B/gKoqlFkzhvzsI6jo9K1cZz9o5ypviVv/xu8CwA4grZzyVwN+XfkT+tu8T1zrauuEXv6VhS2oGX+6NL95WcKA==}
@@ -737,6 +745,11 @@ packages:
 
   fs-constants@1.0.0:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
+
+  fsevents@2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1361,6 +1374,16 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
+  playwright-core@1.62.0-alpha-2026-06-29:
+    resolution: {integrity: sha512-/13EvW8l9Bmvt9nKHey+OcvZ8nob2FM8BCKBsUNwbXgmT4Hc0XX2b6mOErU0RBYNedOCa9q15USI7SY9K17v4w==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  playwright@1.62.0-alpha-2026-06-29:
+    resolution: {integrity: sha512-ugaMuh6rAOqmbaxrM7+XQSs7M6yPXykq5gVugJPClHcJ4Cqxmky5rDHhrCt4wmaILUeMdI7kPBCx3zMx2Qu+bg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
     engines: {node: '>= 0.4'}
@@ -1820,6 +1843,11 @@ packages:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
 snapshots:
+
+  '@playwright/cli@0.1.15':
+    dependencies:
+      playwright: 1.62.0-alpha-2026-06-29
+      playwright-core: 1.62.0-alpha-2026-06-29
 
   '@puppeteer/browsers@3.0.6(yauzl@2.10.0)':
     dependencies:
@@ -2352,6 +2380,9 @@ snapshots:
       for-in: 1.0.2
 
   fs-constants@1.0.0: {}
+
+  fsevents@2.3.2:
+    optional: true
 
   fsevents@2.3.3:
     optional: true
@@ -2985,6 +3016,14 @@ snapshots:
       pinkie: 2.0.4
 
   pinkie@2.0.4: {}
+
+  playwright-core@1.62.0-alpha-2026-06-29: {}
+
+  playwright@1.62.0-alpha-2026-06-29:
+    dependencies:
+      playwright-core: 1.62.0-alpha-2026-06-29
+    optionalDependencies:
+      fsevents: 2.3.2
 
   possible-typed-array-names@1.1.0: {}
 

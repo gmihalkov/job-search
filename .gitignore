@@ -31,3 +31,8 @@ pnpm-debug.log*
 # OS/editor files
 .DS_Store
 Thumbs.db
+
+# Playwright
+.chrome-profile/
+.playwright/
+.playwright-cli/

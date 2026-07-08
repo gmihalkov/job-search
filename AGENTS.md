@@ -14,6 +14,7 @@ Helps me to find job.
 - Ask if you are unsure about translation.
 - Use `/caveman` skill when talking.
 - Use `/caveman` skill when writing AI instructions.
+- Use `pnpm playwright <args>` instead of `npx playwright-cli <args>`.
 
 ## Commands
 

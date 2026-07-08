@@ -6,7 +6,9 @@
   "scripts": {
     "markdown-to-docx": "pandoc",
     "markdown-to-pdf": "md-to-pdf",
-    "markdown-format": "prettier --write"
+    "markdown-format": "prettier --write",
+    "playwright": "scripts/playwright-cli.sh",
+    "playwright-open": "pnpm playwright open --headed"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     }
   },
   "devDependencies": {
+    "@playwright/cli": "^0.1.15",
     "md-to-pdf": "^5.2.5",
     "pandoc-bin": "^0.2.0",
     "prettier": "^3.9.4",
