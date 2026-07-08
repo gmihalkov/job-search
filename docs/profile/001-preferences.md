@@ -26,7 +26,7 @@ Contains my free-form job search preferences. Do not treat this file as a final 
 - Node.js or Bun is required if we are talking about a role that includes backend work.
 - React, Angular or Vue are required if we are talking about a role that includes frontend work.
 - Reject vacancy if:
-  - It requires mandatory technical skills that are not listed in `004-skills.md`.
+  - It requires mandatory knowledge of technology that is not listed in `004-technologies.md`.
 
 ## Company preferences
 

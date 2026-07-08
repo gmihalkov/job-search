@@ -8,3 +8,4 @@ Free-form knowledge base about me and job search preferences. Files here not res
 - `001-preferences.md` hold free-form job search preferences. Not final job search query. Not screening checklist.
 - `002-education.md` hold education info as autobiographical narrative. Not final resume part.
 - `003-experience.md` hold work experience info as autobiographical narrative. Not final resume part.
+- `004-technologies.md` hold list of my known technologies. Not final resume part.
