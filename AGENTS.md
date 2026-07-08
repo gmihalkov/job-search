@@ -20,9 +20,14 @@ Helps me to find job.
 - `pnpm markdown-to-pdf <input.md>`.
 - `pnpm markdown-format <path> [...]`.
 
+## Links
+
+- [CV JSON Schema](https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json).
+
 ## Working with Playwright
 
 - Use `playwright-cli` to work with job aggregators.
 - Use `pnpm playwright <args>` instead of `npx playwright <args>`.
 - Use `pnpm playwright close-all` before start.
+- Don't use flags `--profile`, `--persistent`. They are set automatically.
 - Prefer to use Playwright CLI commands. Don't run custom code, if it's not required.

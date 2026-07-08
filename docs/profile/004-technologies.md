@@ -2,7 +2,7 @@
 
 Holds list of my known technologies. Extracted from `002-education.md` and `003-experience.md`.
 
-## Confirmed Skills
+## Technologies
 
 ### Programming Languages
 
