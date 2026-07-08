@@ -12,9 +12,8 @@ Helps me to find job.
 - Write in English.
 - Don't invent facts when translating.
 - Ask if you are unsure about translation.
-- Use `/caveman` skill when talking.
-- Use `/caveman` skill when writing AI instructions.
 - Use `pnpm playwright <args>` instead of `npx playwright-cli <args>`.
+- Use `pnpm skills <args>` instead of `npx skills <args>`.
 
 ## Commands
 

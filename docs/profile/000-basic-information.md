@@ -1,6 +1,6 @@
 # Basic information
 
-Contains my free-form basic personal and contact information. Do not treat this file as a resume headline.
+My free-form basic personal and contact information. Do not treat as a resume headline.
 
 ## Personal information
 

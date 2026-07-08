@@ -26,6 +26,7 @@ pnpm-debug.log*
 .cache/
 .turbo/
 .vite/
+.tmp/
 *.tsbuildinfo
 
 # OS/editor files
